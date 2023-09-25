@@ -33,7 +33,7 @@
    .footer__section-right{
      flex-direction: column;
      column-gap: 2rem;
-     flex-basis: 50%;
+     flex-basis: 45%;
      order: 3;
    }
  
@@ -44,7 +44,7 @@
    .footer__article{
      flex-direction: column;
      column-gap: 2rem;
-     flex-basis: 50%;
+     flex-basis: 45%;
      order: 2;
    }
  
