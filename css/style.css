@@ -1,0 +1,170 @@
+/* Body */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+/* Title */
+
+.title {
+  text-transform: uppercase;
+}
+
+/* Header */
+
+.header {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__user-info {
+  display: flex;
+}
+
+.header__logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+
+  background-color: black;
+}
+
+.header__logo-name {
+  width: 4rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+
+  background-color: black;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.nav-item {
+  width: 6rem;
+  height: 2rem;
+  margin: 0 1px;
+
+  background-color: black;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+
+  max-width: 1000px;
+  margin: 5rem auto;
+}
+
+.main__article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__section {
+  width: 60%;
+}
+
+.avatar {
+  width: 15rem;
+  height: 15rem;
+
+  border-radius: 50%;
+  background-color: black;
+}
+
+/* Section */
+
+.main__section-title {
+  color: gray;
+
+  font-size: 2rem;
+}
+
+.main__section-text {
+  color: gray;
+  width: fit-content;
+  text-wrap: balance;
+}
+
+/*  Footer */
+
+.footer {
+  display: flex;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+
+  max-width: 1000px;
+  margin: 5rem auto;
+}
+
+.footer__section-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-basis: 0;
+
+}
+
+.footer__section-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 0;
+}
+
+.footer__video{
+  width: 15rem;
+  height: 8rem;
+
+  background-color: black;
+}
+
+.footer__article{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.footer__text{
+  max-width: 40rem;
+  text-wrap: balance;
+}
+
+.footer__comments{
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.footer__comments-avatar{
+  min-width: 3rem;
+  max-height: 3rem;
+  margin: 0 1rem;
+
+  background-color: black;
+}
+
+.footer__comments-text{
+  text-wrap: balance;
+}
